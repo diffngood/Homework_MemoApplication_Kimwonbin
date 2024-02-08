@@ -101,7 +101,7 @@ class InputActivity : AppCompatActivity() {
             resultIntent.putExtra("memoData", memoData)
 
             // 완료 테스트
-            Toast.makeText(this@InputActivity, "완료", Toast.LENGTH_SHORT).show()
+            // Toast.makeText(this@InputActivity, "완료", Toast.LENGTH_SHORT).show()
 
             setResult(RESULT_OK, resultIntent)
             finish()
